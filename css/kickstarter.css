@@ -1,0 +1,152 @@
+/**
+ * Structure
+ */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  background-color: #f0f0f0;
+  font-family: 'Arial';
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background-color: lightGrey;
+  padding: 20px 0;
+  border-bottom: 1px solid grey;
+  border-top: 2px solid grey;
+}
+
+footer {
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+section {
+	width: auto;
+}
+
+aside {
+  float: right;
+  padding: 20px;
+  border-left: 1px solid lightGrey;
+  width: 30%;
+}
+
+article {
+	float: left;
+	width: 68%; 
+}
+
+hr {
+  clear: both;
+}
+figure {
+  margin: 0;
+  position: relative;
+  padding: 10px;
+  border-left: 10px solid #ccc;
+  background-color: white;
+}
+
+figcaption {
+  display: block;
+  padding-right: 10px;
+  text-align: right;
+  font-size: 16px;
+  font-style: italic;
+  color: #84775c;
+}
+
+blockquote {
+  background: #f9f9f9;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: '\201C' '\201D' '\2018' '\2019';
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+cite {
+	font-style: italic;
+}
+
+/**
+ * Form, form fields
+ *
+ */
+
+form > button {
+  float: right;
+  padding: 0.6em 2em;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: calc(20% - 5px);
+  vertical-align: top;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 1em;
+  border: 1px solid lightGrey;
+}
+
+textarea {
+  border-color: lightGrey;
+  width: 80%;
+  padding: 10px;
+}
+
+button {
+  margin: 2em 0;
+  padding: 1em 4em;
+  display: block;
+}
+
+/**
+ * Lists
+ *
+ */
+
+ul {
+
+}
+
+ul > li {
+
+}
+
+ol {
+
+}
+
+ol > li {
+
+}
