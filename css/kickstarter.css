@@ -3,6 +3,8 @@
  */
 html {
   box-sizing: border-box;
+  line-height: 1.4;
+
 }
 *,
 *:before,
@@ -51,8 +53,19 @@ article {
 }
 
 hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
   clear: both;
 }
+
+time {
+  font-weight: bold;
+}
+
 figure {
   margin: 0;
   position: relative;
@@ -93,6 +106,24 @@ blockquote p {
 cite {
   font-style: italic;
 }
+
+address, details > div {
+  border: 4px solid lightGrey;
+  padding: 10px;
+  width: 100%;
+  background-color: white;
+}
+
+summary {
+  margin-bottom: 10px;
+}
+
+a {
+  color: black;
+}
+
+
+
 
 /**
  * Form, form fields
@@ -155,4 +186,8 @@ dt {
 
 dd {
   margin-bottom: 6px;
+}
+
+datalist {
+
 }
