@@ -2,11 +2,8 @@
 
 This is a Kickstarter for a CSS theme that can be used for rapid prototypes. Only HTML5 semantic elements are used.
 
-This repro uses HTML5 Boilerplate for its structure. The only file needed is:
-
- css/kickstarter.css
-
-add this to the top of your css file or include it in your html file.
+This repro uses HTML5 Boilerplate for its structure and takes advantage of its normalize.css and main.css
+These can be found in the css folder.
 
 ## Getting Started
 
