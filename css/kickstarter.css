@@ -35,7 +35,7 @@ main {
 }
 
 section {
-	width: auto;
+  width: auto;
 }
 
 aside {
@@ -46,8 +46,8 @@ aside {
 }
 
 article {
-	float: left;
-	width: 68%; 
+  float: left;
+  width: 68%;
 }
 
 hr {
@@ -91,7 +91,7 @@ blockquote p {
 }
 
 cite {
-	font-style: italic;
+  font-style: italic;
 }
 
 /**
@@ -136,17 +136,17 @@ button {
  */
 
 ul {
-
 }
 
 ul > li {
-
 }
 
 ol {
-
 }
 
 ol > li {
+}
 
+dt {
+  font-weight: bold;
 }
