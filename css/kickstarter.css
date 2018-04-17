@@ -107,7 +107,7 @@ cite {
   font-style: italic;
 }
 
-address, details > div {
+address, details:after {
   border: 4px solid lightGrey;
   padding: 10px;
   width: 100%;
@@ -161,6 +161,11 @@ button {
   display: block;
 }
 
+fieldset {
+  border: 1px solid lightGrey;
+  padding: 10;x;
+}
+
 /**
  * Lists
  *
@@ -190,4 +195,14 @@ dd {
 
 datalist {
 
+}
+
+
+
+mark {
+  background-color: hotPink;
+}
+
+q {
+  font-style: italic;
 }
